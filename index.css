@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    background-size: cover;
+}
+.inicio
+{
+    color: white;
+}
+.Emprendurismo{
+    color: white;
+}
+.carousel {
+    color: #0d9488;
+  }
+  
+  .carousel__slide {
+    width: 40%;
+    height: 12vw;
+    min-height: 6px;
+    margin-right: 6px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #eee;
+    font-size: 2rem;
+    border-radius: 6px;
+  
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  
+  .carousel__slide.is-selected {
+    background: #00c8b0;
+    color: #fff;
+  }
