@@ -15,7 +15,7 @@ body{
   
   .carousel__slide {
     width: 40%;
-    height: 12vw;
+    height: auto;
     min-height: 6px;
     margin-right: 6px;
   
