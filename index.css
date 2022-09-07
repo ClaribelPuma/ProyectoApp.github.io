@@ -1,21 +1,64 @@
+*{
+  margin: 0;
+}
 body{
-    background-color: black;
+    background-color: #112B3C;
     background-size: cover;
 }
-.inicio
+.titulo
 {
     color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 0;
+    margin: 1em;
 }
-.Emprendurismo{
-    color: white;
+.subtitulos{
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  padding: 0;
+  margin: 1em;
 }
+.nav_header{
+  padding: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav_header:hover{
+  background-color: #F66B0E;
+}
+hr{
+    border-top-color: #F66B0E;
+    border-bottom: 0ch;
+    border-width: 1ch;
+    padding: 0%;
+    border-right-width: 0ch;
+    border-left-width: 0ch;
+}
+footer{
+  background-color: #205375;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;;
+ 
+}
+
+.nav_footer{
+  padding: 5px;
+  text-decoration: none;
+  padding: 0;
+  margin: 1em;
+}
+
 .carousel {
-    color: #0d9488;
+    color: #F66B0E;
   }
   
   .carousel__slide {
-    width: 40%;
-    height: auto;
+    width: 300px;
+    height: 600px;
     min-height: 6px;
     margin-right: 6px;
   
@@ -23,7 +66,7 @@ body{
     align-items: center;
     justify-content: center;
   
-    background-color: #eee;
+    background-color:#112B3C;
     font-size: 2rem;
     border-radius: 6px;
   
@@ -31,6 +74,6 @@ body{
   }
   
   .carousel__slide.is-selected {
-    background: #00c8b0;
-    color: #fff;
+    background: #F66B0E;
+    color: #112B3C;
   }

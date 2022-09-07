@@ -1,58 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index.js">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
-    />
-</head>
-<body>
-    <!--zona de clari-->
-    <header>
-        <h1 class="inicio">inicio</h1> <!--Acá se van a ver los libros que son más populares para incrementar esa sensacion de querer leerlo-->
-    </header>
+<html lang="es">
 
-      <section>
-        <h2 class="Emprendurismo">Emprendurismo</h2>
-        <br> <!--Galeria de imagenes de libros-->
-        <figure>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto_Libros</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h1 class="titulo">Proyecto Libros</h1>
+    <!--Acá se van a ver los libros que son más populares para incrementar esa sensacion de querer leerlo-->
+    <nav>
+      <div align="center">
+        <a href="#" class="nav_header">Recomendados</a>
+        <a href="#" class="nav_header">Libros</a>
+        <a href="#" class="nav_header">Infantil</a>
+        <a href="#" class="nav_header">Novedades</a>
+        <a href="#" class="nav_header">Acerca De</a>
+      </div>
+    </nav>
+  </header>
+  <br><hr>
+  <main>
+    <!--zona de clari-->
+    <section>
+      <h2 class="subtitulos">Los mas vendidos:</h2>
+      <br>
+      <!--Galeria de imagenes de libros-->
+      <figure>
         <div>
-            <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-            <div id="myCarousel" class="carousel">
-            <div class="carousel__slide"><img src="./imagenes/Inquebrantables-Daniel-Habif.jpg" alt="" width="50%" height="50%"></div>
-            <div class="carousel__slide"><img src="./imagenes/La-brujula-interior.jpg" alt="" width="50%"></div>
-            <div class="carousel__slide"><img src="./imagenes/La-jornada-laboral-de-4-horas-Timothy-Ferriss-196x300.jpg" alt="" width="50%" ></div>
+          <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+          <div id="myCarousel" class="carousel">
+            <div class="carousel__slide"><img src="./imagenes/Inquebrantables-Daniel-Habif.jpg" alt="" width="400"
+                height="300"></div>
+            <div class="carousel__slide"><img src="./imagenes/La-brujula-interior.jpg" alt="" width="400" height="300">
+            </div>
+            <div class="carousel__slide"><img src="./imagenes/La-jornada-laboral-de-4-horas-Timothy-Ferriss-196x300.jpg"
+                alt="" width="400" height="300"></div>
           </div>
         </div>
-            <script>
-                const myCarousel = new Carousel(document.querySelector(".carousel"), {
-                    slides: [
-    { html: "First slide" },
-    { html: "Second slide" },
-    { html: "Third slide" },
-  ],
-});
-  
-            </script>
-        </figure>
-      </section>
+        <script>
+          const myCarousel = new Carousel(document.querySelector(".carousel"), {
+            slides: [
+              { html: "First slide" },
+              { html: "Second slide" },
+              { html: "Third slide" },
+            ],
+          });
 
-    
+        </script>
+      </figure>
+    </section>
     <!--cerrar zona de clari-->
-
-    
+    <br>
     <!--zona de ismael-->
-   
-
-  
-    <!--zona de ismael-->
-
+    <br>
     <!--termina zona de ismael-->
-</body>
-</html>
+
+  </main>
+  <br>
+  <footer>
+  <div align="center">
+    <br>
+    <nav>
+     Seguinos en nuestras redes:
+     <br><br>
+     <a href="#" class="nav_footer"><img src="./imagenes_footer/facebook (2).png" alt="" width="30"></a>
+     <a href="#" class="nav_footer"><img src="./imagenes_footer/twitter (1).png" alt="" width="30"></a>
+     <a href="#" class="nav_footer"><img src="./imagenes_footer/instagram (1).png" alt="" width="30"></a>
+     <br><br>
+     Todos los derechos reservados/Isma y Clari
+    </nav>
+  </div>
+  </footer>
+    </body>
+
+    </html>
+
+
+
+
+
+
+
+
+
+
+
